@@ -1,0 +1,37 @@
+export const API = {
+  UNAUTHORIZE: 'UNAUTHORIZE',
+  SUCCESS: 'SUCCESS',
+  FAILED: 'FAILED',
+  ERROR: 'ERROR',
+  CREATED: 'CREATED',
+  UPDATED: 'UPDATED',
+  EDITED: 'EDITED',
+  DELETED: 'DELETED'
+}
+
+export const EVENT = {
+  UNAUTHORIZED: 'EVENT_UNAUTHORIZED'
+}
+
+export const USER_STATUS = {
+  ACTIVE: 'Active',
+  PENDING: 'Pending',
+  BANNED: 'Banned',
+  BLOCK: 'Block'
+}
+
+export const SUPER_ADMIN_STATUS = {
+  ACTIVE: 'ACTIVE',
+  BLOCK: 'BLOCK'
+}
+
+export const BILLING_STATUS = {
+  PENDING: 'PENDING',
+  SUCCESS: 'SUCCESS',
+  REJECTED: 'REJECTED'
+}
+
+export const DEFAULT_STATUS = {
+  ACTIVE: 'ACTIVE',
+  DELETED: 'DELETED'
+}
